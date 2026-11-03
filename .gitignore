@@ -1,0 +1,18 @@
+# secrets and credentials(critical)
+.env
+.env.local
+.env.*
+!.env.example
+*.env
+# operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+#common editor folders
+.vscode/
+.idea/
+
+# Local tools, runtime output, and account setup screenshots
+.local-tools/
+*.log
+deliverables/*.jpg
